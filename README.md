@@ -5,7 +5,18 @@ Original code based on my own designs with assistance from ChatGPT as part of my
 - [Self-study tutorial with ChatGPT](#self-study-tutorial-with-chatgpt)
   - [advent-of-code-2022](#advent-of-code-2022)
     - [day-8](#day-8)
+  - [code-golf](#code-golf)
+    - [roman-to-arabic](#roman-to-arabic)
+  
  
  ## advent-of-code-2022
  Examples from 'Advent of Code (2022)' Challenges 
  ###  [day-8](./advent-of-code-2022/day-8/)
+
+## code-golf
+
+Solutions to problems from [code.golf](https://code.golf)
+
+### roman-to-arabic
+
+programs to convert roman numerals to arabic numerals
