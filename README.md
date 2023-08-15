@@ -10,6 +10,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [diamonds](#diamonds)
     - [united-states](#united-states)
     - [christmas-trees](#christmas-trees)
+    - [collatz](#collatz)
  
  
  ## advent-of-code-2022
@@ -36,7 +37,7 @@ Given each US state (and a federal district) print the corresponding US Postal S
 
 Draw a size ascending range of Christmas trees using asterisks, ranging from size 3 to size 9, each tree separated by a blank line.
 
-[collatz](./code-golf/collatz)
+### [collatz](./code-golf/collatz)
 
 The Collatz conjecture states that, for any positive integer n, it will eventually reach 1 by repeatedly applying the following procedure:
 
