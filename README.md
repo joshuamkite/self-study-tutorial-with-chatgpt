@@ -7,16 +7,32 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [day-8](#day-8)
   - [code-golf](#code-golf)
     - [roman-to-arabic](#roman-to-arabic)
-  
+    - [diamonds](#diamonds)
+    - [united-states](#united-states)
+    - [christmas-trees](#christmas-trees)
+ 
  
  ## advent-of-code-2022
  Examples from 'Advent of Code (2022)' Challenges 
- ###  [day-8](./advent-of-code-2022/day-8/)
+ ### [day-8](./advent-of-code-2022/day-8/)
 
 ## code-golf
 
 Solutions to problems from [code.golf](https://code.golf)
 
-### [roman-to-arabic](code-golf/roman-to-arabic)
+### [roman-to-arabic](./code-golf/roman-to-arabic)
 
 programs to convert roman numerals to arabic numerals
+
+### [diamonds](./code-golf/diamonds)
+
+Draw a size ascending range of diamonds using the numbers 1 to 9, ranging from size 1 to size 9, each diamond separated by a blank line.
+
+### [united-states](./code-golf/united-states)
+
+Given each US state (and a federal district) print the corresponding US Postal Service abbreviation.
+
+### [christmas-trees](./code-golf/christmas-trees)
+
+Draw a size ascending range of Christmas trees using asterisks, ranging from size 3 to size 9, each tree separated by a blank line.
+
