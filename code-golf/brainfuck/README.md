@@ -6,6 +6,7 @@ Brainfuck is a minimalistic esoteric programming language created by Urban Müll
 
 Assuming an infinitely large array, the entire brainfuck alphabet matches the following pseudocode:
 
+```
 >	ptr++
 <	ptr--
 +	array[ptr]++
@@ -13,6 +14,7 @@ Assuming an infinitely large array, the entire brainfuck alphabet matches the fo
 .	print(chr(array[ptr]))
 [	while(array[ptr]){
 ]	}
+```
 
 Write a program that will receive various brainfuck programs as arguments and execute each program in turn.
 
