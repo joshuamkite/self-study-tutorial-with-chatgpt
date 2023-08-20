@@ -11,6 +11,9 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [united-states](#united-states)
     - [christmas-trees](#christmas-trees)
     - [collatz](#collatz)
+    - [cubes](#cubes)
+    - [fizz-buzz](#fizz-buzz)
+    - [day-of-the-week](#day-of-the-week)
  
  
  ## advent-of-code-2022
@@ -45,4 +48,20 @@ If n is even, divide it by 2.
 If n is odd, multiply by 3 and then add 1.
 The number of steps needed for n to reach 1 is called its stopping time. 
 
-Print the stopping times of all the numbers from 1 to 1,000 inclusive, each on their own line.
+Print the stopping times of all the numbers from 1 to 1,000 inclusive, each on their own line.#
+
+### [cubes](./code-golf/cubes)
+
+Draw 7 cubes in increasing size using "╱" (U+2571) for the diagonal edges, "│" (U+2502) for the vertical edges, "─" (U+2500) for the horizontal edges, and "█" (U+c) for the vertices. The cubes should range from size 1 to size 7 with a blank line between each cube.
+
+### [fizz-buzz](./code-golf/fizz-buzz)
+
+Print the numbers from 1 to 100 inclusive, each on their own line.
+
+If, however, the number is a multiple of three then print Fizz instead, and if the number is a multiple of five then print Buzz.
+
+If multiple conditions hold true then all replacements should be printed, for example 15 should print FizzBuzz.
+
+### [day-of-the-week](./code-golf/day-of-the-week)
+
+Given a date in the YYYY-MM-DD format between 1583-01-01 and 9999-12-31 inclusive, output the English name of the corresponding day of the week.
