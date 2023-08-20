@@ -14,6 +14,9 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [cubes](#cubes)
     - [fizz-buzz](#fizz-buzz)
     - [day-of-the-week](#day-of-the-week)
+    - [abundant-numbers](#abundant-numbers)
+    - [abundant-numbers-long](#abundant-numbers-long)
+    - [brainfuck](#brainfuck)
  
  
  ## advent-of-code-2022
@@ -65,3 +68,31 @@ If multiple conditions hold true then all replacements should be printed, for ex
 ### [day-of-the-week](./code-golf/day-of-the-week)
 
 Given a date in the YYYY-MM-DD format between 1583-01-01 and 9999-12-31 inclusive, output the English name of the corresponding day of the week.
+
+### [abundant-numbers](./code-golf/abundant-numbers)
+
+An abundant number is a number for which the sum of its proper divisors (divisors not including the number itself) is greater than the number itself. For example 12 is abundant because its proper divisors are 1, 2, 3, 4, and 6 which add up to 16.
+
+Print all the abundant numbers from 1 to 200 inclusive, each on their own line.
+
+### [abundant-numbers-long](./code-golf/abundant-numbers-long)
+
+An abundant number is a number for which the sum of its proper divisors (divisors not including the number itself) is greater than the number itself. For example 12 is abundant because its proper divisors are 1, 2, 3, 4, and 6 which add up to 16.
+
+Print all the abundant numbers from 1 to 10000 inclusive, each on their own line.
+
+### [brainfuck](./code-golf/brainfuck)
+
+Brainfuck is a minimalistic esoteric programming language created by Urban Müller in 1993.
+
+Assuming an infinitely large array, the entire brainfuck alphabet matches the following pseudocode:
+
+>	ptr++
+<	ptr--
++	array[ptr]++
+-	array[ptr]--
+.	print(chr(array[ptr]))
+[	while(array[ptr]){
+]	}
+
+Write a program that will receive various brainfuck programs as arguments and execute each program in turn.
