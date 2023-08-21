@@ -17,6 +17,8 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [abundant-numbers](#abundant-numbers)
     - [abundant-numbers-long](#abundant-numbers-long)
     - [brainfuck](#brainfuck)
+    - [arrows](#arrows)
+    - [intersection](#intersection)
  
  
  ## advent-of-code-2022
@@ -98,3 +100,39 @@ Assuming an infinitely large array, the entire brainfuck alphabet matches the fo
 ```
 
 Write a program that will receive various brainfuck programs as arguments and execute each program in turn.
+
+### [arrows](./code-golf/arrows)
+
+Starting at [0, 0] print the cumulative result of applying each of the given Unicode arrow arguments. The arrows will be a random combination of these:
+
+```json
+{
+    "↙": [-1, -1], "↲": [-1, -1], "⇙": [-1, -1],
+    "←": [-1,  0], "⇐": [-1,  0], "⇦": [-1,  0],
+    "↖": [-1,  1], "↰": [-1,  1], "⇖": [-1,  1],
+    "↓": [ 0, -1], "⇓": [ 0, -1], "⇩": [ 0, -1],
+    "↔": [ 0,  0], "↕": [ 0,  0], "⇔": [ 0,  0],
+    "⇕": [ 0,  0], "⥀": [ 0,  0], "⥁": [ 0,  0],
+    "↑": [ 0,  1], "⇑": [ 0,  1], "⇧": [ 0,  1],
+    "↘": [ 1, -1], "↳": [ 1, -1], "⇘": [ 1, -1],
+    "→": [ 1,  0], "⇒": [ 1,  0], "⇨": [ 1,  0],
+    "↗": [ 1,  1], "↱": [ 1,  1], "⇗": [ 1,  1]
+}
+```
+
+### [intersection](./code-golf/intersection)
+
+A box is defined via x, y, w and h as
+
+  y
+  │ ┌───w───┐
+  │ │   ┌───┼──┐
+  │ h   │▓▓▓│  │
+  │ │   │▓▓▓│  │
+  │ o───┼───┘  │
+  │     o──────┘
+  └───────────────x
+(0,0)
+Compute the intersection area between two boxes given as
+
+x1 y1 w1 h1 x2 y2 w2 h2
