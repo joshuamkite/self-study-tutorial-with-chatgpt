@@ -126,7 +126,7 @@ Starting at [0, 0] print the cumulative result of applying each of the given Uni
 ### [intersection](./code-golf/intersection)
 
 A box is defined via x, y, w and h as
-
+```
   y
   │ ┌───w───┐
   │ │   ┌───┼──┐
@@ -136,6 +136,7 @@ A box is defined via x, y, w and h as
   │     o──────┘
   └───────────────x
 (0,0)
+```
 Compute the intersection area between two boxes given as
 
 x1 y1 w1 h1 x2 y2 w2 h2
@@ -158,6 +159,8 @@ Using pipes and underscores print the argument as if it were displayed on a seve
 
 For example the number 0123456789 should be displayed as:
 
+```
  _     _  _     _  _  _  _  _
 | |  | _| _||_||_ |_   ||_||_|
 |_|  ||_  _|  | _||_|  ||_| _|
+```
