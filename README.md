@@ -21,7 +21,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [intersection](#intersection)
     - [pangram](#pangram)
     - [divisors](#divisors)
-  - [seven-segment](#seven-segment)
+    - [seven-segment](#seven-segment)
  
  
  ## advent-of-code-2022
@@ -152,7 +152,7 @@ A number is a divisor of another number if it can divide into it with no remaind
 
 Print the positive divisors of each number from 1 to 100 inclusive, on their own line, with each divisor separated by a space.
 
-## [seven-segment](./code-golf/seven-segment)
+### [seven-segment](./code-golf/seven-segment)
 
 Using pipes and underscores print the argument as if it were displayed on a seven segment display.
 
