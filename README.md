@@ -19,6 +19,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [brainfuck](#brainfuck)
     - [arrows](#arrows)
     - [intersection](#intersection)
+    - [pangram](#pangram)
  
  
  ## advent-of-code-2022
@@ -136,3 +137,9 @@ A box is defined via x, y, w and h as
 Compute the intersection area between two boxes given as
 
 x1 y1 w1 h1 x2 y2 w2 h2
+
+### [pangram](./code-golf/pangram)
+
+A pangram is a sentence that uses every letter of a given alphabet.
+
+Write a program that will receive various sentences as arguments and print those that are valid pangrams, meaning they use all letters from A to Z, case insensitive.
