@@ -22,7 +22,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [pangram](#pangram)
     - [divisors](#divisors)
     - [seven-segment](#seven-segment)
-  - [isbn](#isbn)
+    - [isbn](#isbn)
  
  
  ## advent-of-code-2022
@@ -166,6 +166,6 @@ For example the number 0123456789 should be displayed as:
 |_|  ||_  _|  | _||_|  ||_| _|
 ```
 
-## [isbn](./code-golf/isbn)
+### [isbn](./code-golf/isbn)
 
 Calculate the check digit for these incomplete ISBNs. If the check digit would be 10, write "X" instead.
