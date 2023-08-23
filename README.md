@@ -23,6 +23,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [divisors](#divisors)
     - [seven-segment](#seven-segment)
     - [isbn](#isbn)
+    - [leap years](#leap-years)
  
  
  ## advent-of-code-2022
@@ -169,3 +170,7 @@ For example the number 0123456789 should be displayed as:
 ### [isbn](./code-golf/isbn)
 
 Calculate the check digit for these incomplete ISBNs. If the check digit would be 10, write "X" instead.
+
+### [leap years](./code-golf/leap-years)
+
+In the Gregorian calendar, a leap year is created by extending February to 29 days in order to keep the calendar year synchronized with the astronomical year. These longer years occur in years which are multiples of 4, with the exception of centennial years that aren’t multiples of 400.
