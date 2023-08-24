@@ -24,6 +24,8 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [seven-segment](#seven-segment)
     - [isbn](#isbn)
     - [leap years](#leap-years)
+    - [morse-decoder](#morse-decoder)
+    - [morse-encoder](#morse-encoder)
  
  
  ## advent-of-code-2022
@@ -174,3 +176,23 @@ Calculate the check digit for these incomplete ISBNs. If the check digit would b
 ### [leap years](./code-golf/leap-years)
 
 In the Gregorian calendar, a leap year is created by extending February to 29 days in order to keep the calendar year synchronized with the astronomical year. These longer years occur in years which are multiples of 4, with the exception of centennial years that aren’t multiples of 400.
+
+### [morse-decoder](./code-golf/morse-decoder)
+
+Using ▄ (U+2584 Lower Half Block) to represent a dot, decode the argument from International Morse Code to alphanumeric.
+
+- The length of a dot is one unit.
+- A dash is three units.
+- The space between parts of the same letter is one unit.
+- The space between letters is three units.
+- The space between words is ten units.
+
+### [morse-encoder](./code-golf/morse-encoder)
+
+Using ▄ (U+2584 Lower Half Block) to represent a dot, encode the argument from alphanumeric into International Morse Code.
+
+- The length of a dot is one unit.
+- A dash is three units.
+- The space between parts of the same letter is one unit.
+- The space between letters is three units.
+- The space between words is ten units.
