@@ -5,9 +5,12 @@ https://code.golf/diamonds#python
 Draw a size ascending range of diamonds using the numbers 1 to 9, ranging from size 1 to size 9, each diamond separated by a blank line.
 
 A size 1 diamond should look like this, a single centered 1:
-
+```
          1
+```
+
 With the largest size 9 diamond looking like this:
+```
 
          1
         121
@@ -26,6 +29,7 @@ With the largest size 9 diamond looking like this:
        12321
         121
          1
+```
 
 ## diamonds.py
 
