@@ -26,6 +26,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [leap years](#leap-years)
     - [morse-decoder](#morse-decoder)
     - [morse-encoder](#morse-encoder)
+  - [99-bottles-again](#99-bottles-again)
  
  
  ## advent-of-code-2022
@@ -196,3 +197,9 @@ Using ▄ (U+2584 Lower Half Block) to represent a dot, encode the argument from
 - The space between parts of the same letter is one unit.
 - The space between letters is three units.
 - The space between words is ten units.
+
+## [99-bottles-again](./code-golf/99-bottles-again)
+
+Print the lyrics to the song 99 Bottles of Beer
+
+Solo attempt after some time following [previous solution with ChatGPT assistance](./code-golf/99-bottle-of-beer)
