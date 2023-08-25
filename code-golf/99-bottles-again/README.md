@@ -29,6 +29,6 @@ This is an attempt to golf the above using variable string substitution:
 | File       | main.py | main-golfed.py |
 | ---------- | ------- | -------------- |
 | Lines      | 14      | 8              |
-| Characters | 644     | 354            |
+| Characters | 644     | 350            |
     
 Whilst it is effective, it's also a great example of why you don't want to golf code in the real world. Even I get to the end and am thinking "no more, no more, no more.." 
