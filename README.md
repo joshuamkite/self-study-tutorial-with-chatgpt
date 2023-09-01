@@ -27,6 +27,8 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [morse-decoder](#morse-decoder)
     - [morse-encoder](#morse-encoder)
     - [99-bottles-again](#99-bottles-again)
+    - [number-spiral](#number-spiral)
+    - [zodic-signs](#zodic-signs)
  
  
  ## advent-of-code-2022
@@ -203,3 +205,30 @@ Using ▄ (U+2584 Lower Half Block) to represent a dot, encode the argument from
 Print the lyrics to the song 99 Bottles of Beer
 
 Solo attempt after some time following [previous solution with ChatGPT assistance](./code-golf/99-bottle-of-beer)
+
+### [number-spiral](,.code-golf/number-spiral)
+
+Print a 10×10 grid of the numbers 0 to 99 inclusive. Starting at the top left the numbers should spiral clockwise towards the centre, be right aligned, and have a space between each number.
+
+The full grid should look like this:
+```
+ 0  1  2  3  4  5  6  7  8  9
+35 36 37 38 39 40 41 42 43 10
+34 63 64 65 66 67 68 69 44 11
+33 62 83 84 85 86 87 70 45 12
+32 61 82 95 96 97 88 71 46 13
+31 60 81 94 99 98 89 72 47 14
+30 59 80 93 92 91 90 73 48 15
+29 58 79 78 77 76 75 74 49 16
+28 57 56 55 54 53 52 51 50 17
+27 26 25 24 23 22 21 20 19 18
+```
+
+### [ordinal-numbers](./code-golf/ordinal-numbers)
+For each integer argument, print the argument and its ordinal suffix (e.g. 1st, 2nd, 3rd, 112th).
+
+The integers will be in the range of 0 to 999 inclusive.
+
+### [zodic-signs](./code-golf/zodic-signs)
+
+Given a MM-DD HH:MM date and time, output the corresponding Zodiac sign symbol according to the first table below. If the ascending sign is different from the Zodiac sign (sun sign), output it as well. Approximate the ascending sign using the sun sign and time according to the second table below.

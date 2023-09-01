@@ -17,3 +17,8 @@ I asked ChatGPT
 along with a copy of the code and ChatGPT provided this with the explanation
 
 > This code uses a single `if` condition to check for leap years, making it more concise and easier to read.
+
+
+### main.go
+
+I attempted to translate this to golang. I got the syntax for the loop for the years and the check logic but I reverted to chatgpt for a sane single loop on this occasion
