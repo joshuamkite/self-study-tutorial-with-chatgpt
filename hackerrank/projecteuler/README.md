@@ -75,4 +75,4 @@ This was my initial attempt. I had some difficulty because I had missed the doub
 
 ## My thoughts
 
-In order to approach this challenge correctly a mathematical approach is clearly required. At the time that I approached this problem I might have discovered the more computationally time efficient approach from traditional searching but I am not sure how well I would have been able to implement it from scratch. I was also unfamiliar with the Latex formatting for the mathematical formulae
+In order to approach this challenge correctly a mathematical approach is clearly required. At the time that I approached this problem I might have discovered the more computationally time efficient approach from traditional searching but I am not sure how well I would have been able to implement it from scratch. I was also unfamiliar with the Latex formatting for the mathematical formulae to add to the readme
