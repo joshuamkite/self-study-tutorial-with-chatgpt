@@ -31,6 +31,8 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [zodic-signs](#zodic-signs)
   - [Hacker Rank](#hacker-rank)
     - [Project Euler #1: Multiples of 3 and 5](#project-euler-1-multiples-of-3-and-5)
+    - [30 Days of Code](#30-days-of-code)
+      - [datypes](#datypes)
  
  
  ## advent-of-code-2022
@@ -238,8 +240,19 @@ Given a MM-DD HH:MM date and time, output the corresponding Zodiac sign symbol a
 
 ## Hacker Rank
 
-### [Project Euler #1: Multiples of 3 and 5](https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem?isFullScreen=true)
+### [Project Euler #1: Multiples of 3 and 5](./hackerrank/projecteuler)
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
 Find the sum of all the multiples of 3 or 5 below \( N \).
+
+### 30 Days of Code
+
+#### [datypes](./hackerrank/30-days-of-code/datypes)
+
+Declare  variables: one of type int, one of type double, and one of type String.
+Read  lines of input from stdin (according to the sequence given in the Input Format section below) and initialize your  variables.
+Use the  operator to perform the following operations:
+Print the sum of  plus your int variable on a new line.
+Print the sum of  plus your double variable to a scale of one decimal place on a new line.
+Concatenate  with the string you read as input and print the result on a new line.
