@@ -29,6 +29,8 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [99-bottles-again](#99-bottles-again)
     - [number-spiral](#number-spiral)
     - [zodic-signs](#zodic-signs)
+  - [Hacker Rank](#hacker-rank)
+    - [Project Euler #1: Multiples of 3 and 5](#project-euler-1-multiples-of-3-and-5)
  
  
  ## advent-of-code-2022
@@ -232,3 +234,12 @@ The integers will be in the range of 0 to 999 inclusive.
 ### [zodic-signs](./code-golf/zodic-signs)
 
 Given a MM-DD HH:MM date and time, output the corresponding Zodiac sign symbol according to the first table below. If the ascending sign is different from the Zodiac sign (sun sign), output it as well. Approximate the ascending sign using the sun sign and time according to the second table below.
+
+
+## Hacker Rank
+
+### [Project Euler #1: Multiples of 3 and 5](https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem?isFullScreen=true)
+
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below \( N \).
