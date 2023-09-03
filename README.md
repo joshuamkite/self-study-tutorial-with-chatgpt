@@ -28,6 +28,8 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [morse-encoder](#morse-encoder)
     - [99-bottles-again](#99-bottles-again)
     - [number-spiral](#number-spiral)
+    - [maze](#maze)
+      - [Example](#example)
     - [zodic-signs](#zodic-signs)
   - [Hacker Rank](#hacker-rank)
     - [Project Euler #1: Multiples of 3 and 5](#project-euler-1-multiples-of-3-and-5)
@@ -233,10 +235,39 @@ For each integer argument, print the argument and its ordinal suffix (e.g. 1st, 
 
 The integers will be in the range of 0 to 999 inclusive.
 
+### [maze](./code-golf/maze)
+
+For a given maze, find the shortest path from Start to End points. Output the path in the maze with dots. 
+
+#### Example
+Input:
+```
+###########
+#S#      E#
+# ### #####
+#   #     #
+### ##### #
+#         #
+###########
+```
+
+Output:
+```
+###########
+#S#  ....E#
+#.###.#####
+#...#.....#
+###.#####.#
+#  .......#
+###########
+```
+
+Here, `S` is the start point, `E` is the end point, `#` represents walls, and spaces represent open paths. The output should show the shortest path from `S` to `E` using dots (`.`).
+
+
 ### [zodic-signs](./code-golf/zodic-signs)
 
 Given a MM-DD HH:MM date and time, output the corresponding Zodiac sign symbol according to the first table below. If the ascending sign is different from the Zodiac sign (sun sign), output it as well. Approximate the ascending sign using the sun sign and time according to the second table below.
-
 
 ## Hacker Rank
 
