@@ -35,6 +35,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [Project Euler #1: Multiples of 3 and 5](#project-euler-1-multiples-of-3-and-5)
     - [30 Days of Code](#30-days-of-code)
       - [datypes](#datypes)
+  - [Operators](#operators)
  
  
  ## advent-of-code-2022
@@ -287,3 +288,7 @@ Use the  operator to perform the following operations:
 Print the sum of  plus your int variable on a new line.
 Print the sum of  plus your double variable to a scale of one decimal place on a new line.
 Concatenate  with the string you read as input and print the result on a new line.
+
+## [Operators](./hackerrank/30-days-of-code/operators)
+
+Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost. Round the result to the nearest integer.
