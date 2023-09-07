@@ -39,6 +39,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [Intro-to-Conditional-Statements](#intro-to-conditional-statements)
       - [loops](#loops)
       - [class-vs-instance](#class-vs-instance)
+      - [Let's Review](#lets-review)
  
  
  ## advent-of-code-2022
@@ -318,3 +319,9 @@ Write a `Person` class with an instance variable `age`, and a constructor that t
     - If `age < 13`, print "You are young."
     - If `age >= 13` and `age < 18`, print "You are a teenager."
     - Otherwise, print "You are old."
+
+#### Let's Review
+
+Given a string, S, of length N that is indexed from 0 to N-1, print its even-indexed and odd-indexed characters as  space-separated strings on a single line.
+
+Note: 0 is considered to be an even index.
