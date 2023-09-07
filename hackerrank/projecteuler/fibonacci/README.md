@@ -1,0 +1,1 @@
+I reused a previous Fibonacci check function. I got stuck attempting to extend this function directly but CHatGPT suggested using a separate function fto call the check and handle the running total. 
