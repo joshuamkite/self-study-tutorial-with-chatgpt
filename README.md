@@ -284,6 +284,8 @@ Find the sum of all the multiples of 3 or 5 below \( N \).
 
 ### 30 Days of Code
 
+These have all been attempted without the use of ChatGPT except where noted, e.g. to demonstrate an alternative to a working solution.
+
 #### [datypes](./hackerrank/30-days-of-code/datypes)
 
 Declare  variables: one of type int, one of type double, and one of type String.
