@@ -34,7 +34,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
   - [Hacker Rank](#hacker-rank)
     - [Project Euler #1: Multiples of 3 and 5](#project-euler-1-multiples-of-3-and-5)
     - [30 Days of Code](#30-days-of-code)
-      - [datypes](#datypes)
+      - [dataypes](#dataypes)
       - [Operators](#operators)
       - [Intro-to-Conditional-Statements](#intro-to-conditional-statements)
       - [loops](#loops)
@@ -286,7 +286,7 @@ Find the sum of all the multiples of 3 or 5 below \( N \).
 
 An attempt to ensure a comprehensive covering of the basics which might otherwise be missed with simple exercises, e.g. classes.These have all been attempted without the use of ChatGPT except where noted, e.g. to demonstrate an alternative to a working solution.
 
-#### [datypes](./hackerrank/30-days-of-code/datypes)
+#### [dataypes](./hackerrank/30-days-of-code/datypes)
 
 Declare  variables: one of type int, one of type double, and one of type String.
 Read  lines of input from stdin (according to the sequence given in the Input Format section below) and initialize your  variables.
