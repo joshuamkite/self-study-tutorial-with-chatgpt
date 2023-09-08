@@ -72,7 +72,7 @@ The Collatz conjecture states that, for any positive integer n, it will eventual
 
 If n is even, divide it by 2.
 If n is odd, multiply by 3 and then add 1.
-The number of steps needed for n to reach 1 is called its stopping time. 
+The number of steps needed for n to reach 1 is called its stopping time.
 
 Print the stopping times of all the numbers from 1 to 1,000 inclusive, each on their own line.#
 
@@ -242,7 +242,7 @@ The integers will be in the range of 0 to 999 inclusive.
 
 ### [maze](./code-golf/maze)
 
-For a given maze, find the shortest path from Start to End points. Output the path in the maze with dots. 
+For a given maze, find the shortest path from Start to End points. Output the path in the maze with dots.
 
 #### Example
 Input:
@@ -310,7 +310,7 @@ Given an integer \( n \), perform the following conditional actions:
 
 Given an integer \( n \), print its first 10 multiples. Each multiple \( (i) \) should be printed on a new line in the form: `n x i = result`.
 
-#### [class-vs-instance](./hackerrank/30-days-of-code/class-vs-instance)       
+#### [class-vs-instance](./hackerrank/30-days-of-code/class-vs-instance)
 
 Write a `Person` class with an instance variable `age`, and a constructor that takes an integer `initialAge` as a parameter. The constructor must assign `initialAge` to `age` after confirming the argument passed as `initialAge` is not negative; if a negative argument is passed as `initialAge`, the constructor should set `age` to 0 and print "Age is not valid, setting age to 0.". In addition, you must write the following instance methods:
 
