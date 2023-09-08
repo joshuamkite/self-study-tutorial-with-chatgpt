@@ -297,7 +297,7 @@ Concatenate  with the string you read as input and print the result on a new lin
 
 Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost. Round the result to the nearest integer.
 
-#### Intro-to-Conditional-Statements 
+#### [Intro-to-Conditional-Statements](./hackerrank/30-days-of-code/Intro-to-Conditional-Statements)
 
 Given an integer \( n \), perform the following conditional actions:
 
@@ -306,11 +306,11 @@ Given an integer \( n \), perform the following conditional actions:
 - If \( n \) is even and in the inclusive range of 6 to 20, print `Weird`
 - If \( n \) is even and greater than 20, print `Not Weird`
 - 
-#### loops
+#### [loops](./hackerrank/30-days-of-code/loops)
 
 Given an integer \( n \), print its first 10 multiples. Each multiple \( (i) \) should be printed on a new line in the form: `n x i = result`.
 
-#### class-vs-instance       
+#### [class-vs-instance](./hackerrank/30-days-of-code/class-vs-instance)       
 
 Write a `Person` class with an instance variable `age`, and a constructor that takes an integer `initialAge` as a parameter. The constructor must assign `initialAge` to `age` after confirming the argument passed as `initialAge` is not negative; if a negative argument is passed as `initialAge`, the constructor should set `age` to 0 and print "Age is not valid, setting age to 0.". In addition, you must write the following instance methods:
 
@@ -320,7 +320,7 @@ Write a `Person` class with an instance variable `age`, and a constructor that t
     - If `age >= 13` and `age < 18`, print "You are a teenager."
     - Otherwise, print "You are old."
 
-#### Let's Review
+#### [Let's Review](./hackerrank/30-days-of-code/lets_review)
 
 Given a string, S, of length N that is indexed from 0 to N-1, print its even-indexed and odd-indexed characters as  space-separated strings on a single line.
 
