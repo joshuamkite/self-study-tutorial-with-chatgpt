@@ -40,6 +40,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [loops](#loops)
       - [class-vs-instance](#class-vs-instance)
       - [Let's Review](#lets-review)
+      - [arrays](#arrays)
  
  
  ## advent-of-code-2022
@@ -327,3 +328,7 @@ Write a `Person` class with an instance variable `age`, and a constructor that t
 Given a string, S, of length N that is indexed from 0 to N-1, print its even-indexed and odd-indexed characters as  space-separated strings on a single line.
 
 Note: 0 is considered to be an even index.
+
+#### [arrays](./hackerrank/30-days-of-code/arrays)
+
+Given an array, `A`, of integers, print `A`'s elements in reverse order as a single line of space-separated numbers.
