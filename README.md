@@ -41,7 +41,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [class-vs-instance](#class-vs-instance)
       - [Let's Review](#lets-review)
       - [arrays](#arrays)
-      - [30-days-of-code/dictionaries\_and\_maps](#30-days-of-codedictionaries_and_maps)
+      - [dictionaries\_and\_maps](#dictionaries_and_maps)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -339,7 +339,7 @@ Note: 0 is considered to be an even index.
 
 Given an array, `A`, of integers, print `A`'s elements in reverse order as a single line of space-separated numbers.
 
-#### [30-days-of-code/dictionaries_and_maps](./hackerrank/30-days-of-code/dictionaries_and_maps)
+#### [dictionaries_and_maps](./hackerrank/30-days-of-code/dictionaries_and_maps)
 
 Given names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. You will then be given an unknown number of names to query your phone book for. For each queried, print the associated entry from your phone book on a new line in the form name=phoneNumber; if an entry for is not found, print Not found instead.
 
