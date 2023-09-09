@@ -41,6 +41,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [class-vs-instance](#class-vs-instance)
       - [Let's Review](#lets-review)
       - [arrays](#arrays)
+      - [custom\_zip](#custom_zip)
  
  
  ## advent-of-code-2022
@@ -332,3 +333,13 @@ Note: 0 is considered to be an even index.
 #### [arrays](./hackerrank/30-days-of-code/arrays)
 
 Given an array, `A`, of integers, print `A`'s elements in reverse order as a single line of space-separated numbers.
+
+#### [custom_zip](./misc/custom_zip)
+
+The built-in zip function "zips" two lists. Write your own implementation of this function.
+
+Define a function named zap. The function takes two parameters, a and b. These are lists.
+
+Your function should return a list of tuples. Each tuple should contain one item from the a list and one from b.
+
+You may assume a and b have equal lengths.
