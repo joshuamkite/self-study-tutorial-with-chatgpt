@@ -41,10 +41,12 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [class-vs-instance](#class-vs-instance)
       - [Let's Review](#lets-review)
       - [arrays](#arrays)
-      - [custom\_zip](#custom_zip)
-      - [list\_xor](#list_xor)
-      - [Counting syllables](#counting-syllables)
-      - [counting-parameters](#counting-parameters)
+      - [30-days-of-code/dictionaries\_and\_maps](#30-days-of-codedictionaries_and_maps)
+  - [Misc](#misc)
+    - [custom\_zip](#custom_zip)
+    - [list\_xor](#list_xor)
+    - [Counting syllables](#counting-syllables)
+    - [counting-parameters](#counting-parameters)
  
  
  ## advent-of-code-2022
@@ -337,7 +339,15 @@ Note: 0 is considered to be an even index.
 
 Given an array, `A`, of integers, print `A`'s elements in reverse order as a single line of space-separated numbers.
 
-#### [custom_zip](./misc/custom_zip)
+#### [30-days-of-code/dictionaries_and_maps](./hackerrank/30-days-of-code/dictionaries_and_maps)
+
+Given names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. You will then be given an unknown number of names to query your phone book for. For each queried, print the associated entry from your phone book on a new line in the form name=phoneNumber; if an entry for is not found, print Not found instead.
+
+Note: Your phone book should be a Dictionary/Map/HashMap data structure.
+
+## Misc
+
+### [custom_zip](./misc/custom_zip)
 
 The built-in zip function "zips" two lists. Write your own implementation of this function.
 
@@ -347,7 +357,7 @@ Your function should return a list of tuples. Each tuple should contain one item
 
 You may assume a and b have equal lengths.
 
-#### [list_xor](./misc/list_xor)
+### [list_xor](./misc/list_xor)
 
 Define a function named list_xor. Your function should take three parameters: `n`, `list1` and `list2`.
 
@@ -356,7 +366,7 @@ Your function must return whether n is exclusively in `list1` or `list2`.
 In other words, if `n` is in both lists or in none of the lists, return `False`. If `n` is in only one of the lists, return `True`.
 
 
-#### [Counting syllables](./misc/counting-syllables)
+### [Counting syllables](./misc/counting-syllables)
 
 Define a function named count that takes a single parameter. The parameter is a string. The string will contain a single word divided into syllables by hyphens, such as these:
 
@@ -369,7 +379,7 @@ Your function should count the number of syllables and return it.
 
 For example, the call `count("ho-tel"` should return `2`.
 
-#### [counting-parameters](./misc/counting-parameters)
+### [counting-parameters](./misc/counting-parameters)
 
 Define a function param_count that takes a variable number of parameters. The function should return the number of arguments it was called with.
 
