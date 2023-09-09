@@ -42,6 +42,9 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [Let's Review](#lets-review)
       - [arrays](#arrays)
       - [custom\_zip](#custom_zip)
+      - [list\_xor](#list_xor)
+      - [Counting syllables](#counting-syllables)
+      - [counting-parameters](#counting-parameters)
  
  
  ## advent-of-code-2022
@@ -343,3 +346,31 @@ Define a function named zap. The function takes two parameters, a and b. These a
 Your function should return a list of tuples. Each tuple should contain one item from the a list and one from b.
 
 You may assume a and b have equal lengths.
+
+#### [list_xor](./misc/list_xor)
+
+Define a function named list_xor. Your function should take three parameters: `n`, `list1` and `list2`.
+
+Your function must return whether n is exclusively in `list1` or `list2`.
+
+In other words, if `n` is in both lists or in none of the lists, return `False`. If `n` is in only one of the lists, return `True`.
+
+
+#### [Counting syllables](./misc/counting-syllables)
+
+Define a function named count that takes a single parameter. The parameter is a string. The string will contain a single word divided into syllables by hyphens, such as these:
+
+`"ho-tel"`
+`"cat"`
+`"met-a-phor"`
+`"ter-min-a-tor"`
+
+Your function should count the number of syllables and return it.
+
+For example, the call `count("ho-tel"` should return `2`.
+
+#### [counting-parameters](./misc/counting-parameters)
+
+Define a function param_count that takes a variable number of parameters. The function should return the number of arguments it was called with.
+
+For example, param_count() should return 0, while param_count(2, 3, 4) should return 3.
