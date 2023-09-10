@@ -31,6 +31,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [maze](#maze)
       - [Example](#example)
     - [zodic-signs](#zodic-signs)
+    - [Rock-paper-scissors-Spock-lizard](#rock-paper-scissors-spock-lizard)
   - [Hacker Rank](#hacker-rank)
     - [Project Euler #1: Multiples of 3 and 5](#project-euler-1-multiples-of-3-and-5)
     - [30 Days of Code](#30-days-of-code)
@@ -280,6 +281,29 @@ Here, `S` is the start point, `E` is the end point, `#` represents walls, and sp
 ### [zodic-signs](./code-golf/zodic-signs)
 
 Given a MM-DD HH:MM date and time, output the corresponding Zodiac sign symbol according to the first table below. If the ascending sign is different from the Zodiac sign (sun sign), output it as well. Approximate the ascending sign using the sun sign and time according to the second table below.
+
+### [Rock-paper-scissors-Spock-lizard](./code-golf/rock-paper-scissors-spock-lizard)
+
+**Details**:
+
+| Emoji 1 | Action    | Emoji 2 |
+| ------- | --------- | ------- |
+| ✂       | cuts      | 📄       |
+| 💎       | crushes   | 🦎       |
+| 🖖       | smashes   | ✂       |
+| 🦎       | eats      | 📄       |
+| 🖖       | vaporizes | 💎       |
+| ✂       | ties with | ✂       |
+
+Each argument is a string of two emoji encoded in UTF-8. For each argument, print a line like `🦎 poisons 🖖` describing the game outcome, or `Tie` if they are equal.
+
+| Weapon   | Emoji | Codepoint                                                                                | UTF-8 Sequence |
+| -------- | ----- | ---------------------------------------------------------------------------------------- | -------------- |
+| Rock     | 💎     | [U+1F48E](https://emojipedia.org/gem-stone/)                                             | `f0 9f 92 8e`  |
+| Paper    | 📄     | [U+1F4C4](https://emojipedia.org/page-facing-up/)                                        | `f0 9f 93 84`  |
+| Scissors | ✂     | [U+2702](https://emojipedia.org/black-scissors/)                                         | `e2 9c 82`     |
+| Spock    | 🖖     | [U+1F596](https://emojipedia.org/raised-hand-with-part-between-middle-and-ring-fingers/) | `f0 9f 96 96`  |
+| Lizard   | 🦎     | [U+1F98E](https://emojipedia.org/lizard/)                                                | `f0 9f a6 8e`  |
 
 ## Hacker Rank
 
