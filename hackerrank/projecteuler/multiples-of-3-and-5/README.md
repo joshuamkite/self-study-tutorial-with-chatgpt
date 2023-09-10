@@ -44,34 +44,8 @@ This was my initial attempt. I had some difficulty because I had missed the doub
 ## main.py
 
 > The issue with your code is that it's not optimized for large inputs. The time complexity of your function is \(O(n)\) due to the three `for` loops that iterate up to \(n\). When \(n\) is very large, this can result in a "time limit exceeded" error on platforms like HackerRank.
-> 
-> You can optimize your code by using a mathematical approach to find the sum of multiples. The sum of multiples of \(x\) up to \(n\) can be calculated using the formula for the sum of an arithmetic series:
-> 
-> $$
-> \text{Sum of multiples of \(x\) up to \(n\)} = x \times \left(1 + 2 + 3 + \ldots + \left\lfloor \frac{n-1}{x} \right\rfloor \right)
-> $$
-> 
-> $$
-> = x \times \frac{\left\lfloor \frac{n-1}{x} \right\rfloor \times \left( \left\lfloor \frac{n-1}{x} \right\rfloor + 1 \right)}{2}
-> $$
-> 
-> Here's how you can implement this in your code:
-> 
-> ```python
-> def sum_of_multiples(x, n):
->     m = (n - 1) // x
->     return x * m * (m + 1) // 2
-> 
-> def submultiples(n):
->     return sum_of_multiples(3, n) + sum_of_multiples(5, n) - sum_of_multiples(15, n)
-> 
-> t = int(input().strip())
-> for a0 in range(t):
->     n = int(input().strip())
->     print(submultiples(n))
-> ```
-> 
-> This optimized version has a time complexity of \(O(1)\) for each test case, which should be fast enough to avoid the "time limit exceeded" error.
+
+Unfortunately the suggested solution and variations on it di not give the right answer
 
 ## My thoughts
 

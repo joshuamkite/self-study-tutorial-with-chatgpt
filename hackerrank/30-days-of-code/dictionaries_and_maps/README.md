@@ -90,6 +90,36 @@ ChatGPT:
 > 
 > Here, the underscore `_` is a common convention in Python to indicate that the loop variable is a "throwaway" variable and won't be used in the loop body. The loop still runs `n` times, which is the important part, because we expect to process `n` queries.
 
+## follow up with ChatGPT
 
+Although I thought I had 'solved' this code, I had not submitted it for all test cases and I later found it failing on one of them. On giving ChatGPT my code as commented and the challenge:
 
-
+> Your code seems mostly correct for the given problem. You're reading the number of entries, then populating the dictionary (phone book) with the given names and phone numbers. After that, you're querying the phone book and printing the results as specified.
+> 
+> However, there's a minor issue. The number of queries is not necessarily equal to `n` (the number of entries in the phone book). The problem statement mentions that "there are an unknown number of lines of queries." This means you should not limit the number of queries to `n`.
+> 
+> To fix this, you can read queries until there's no more input. Here's a modified version of your code:
+> 
+> ```python
+> if __name__ == '__main__':
+>     book = {}
+>     n = int(input().strip())
+>     for _ in range(n):
+>         entry = input().strip().split(" ")
+>         book[entry[0]] = entry[1]
+>     
+>     # Read queries until there's no more input
+>     while True:
+>         try:
+>             query = input().strip()
+>             result = book.get(query, "Not found")
+>             if result == "Not found":
+>                 print(result)
+>             else:
+>                 print(f"{query}={result}")
+>         except EOFError:
+>             break
+> ```
+> 
+> The `try` and `except EOFError` block will handle the case when there's no more input, and it will break out of the loop. This way, you can handle any number of queries.
+> 
