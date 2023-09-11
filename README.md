@@ -43,7 +43,8 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [Let's Review](#lets-review)
       - [arrays](#arrays)
       - [dictionaries\_and\_maps](#dictionaries_and_maps)
-      - [30-days-of-code/recursion](#30-days-of-coderecursion)
+      - [recursion](#recursion)
+      - [binary-numbers](#binary-numbers)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -370,8 +371,13 @@ Given names and phone numbers, assemble a phone book that maps friends' names to
 
 Note: Your phone book should be a Dictionary/Map/HashMap data structure.
 
-#### [30-days-of-code/recursion](./hackerrank/30-days-of-code/recursion)
+#### [recursion](./hackerrank/30-days-of-code/recursion)
 
+Recursive Method for Calculating Factorial
+
+#### [binary-numbers](./hackerrank/30-days-of-code/binary-numbers)
+
+Given a base-10 integer, \( n \), convert it to binary (base-2). Then find and print the base-10 integer denoting the maximum number of consecutive 1's in \( n \)'s binary representation. When working with different bases, it is common to show the base as a subscript.
 ## Misc
 
 ### [custom_zip](./misc/custom_zip)
