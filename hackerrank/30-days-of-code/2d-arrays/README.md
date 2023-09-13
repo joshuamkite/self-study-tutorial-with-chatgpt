@@ -134,4 +134,4 @@ The hourglass with the maximum sum (19) is:
 > 
 > This refactored code is more readable and slightly more efficient.
 
-I don't think the code to set `max_sum` is needed or the comments about variable names particularly valuable. The approach to use simple `for` loops is arguably more elegant but not obviously more efficient
+I don't think the code to set `max_sum` is needed or the comments about variable names particularly valuable. The approach to use simple `for` loops is more elegant and sensible. The notation to use range within arrays is insightful
