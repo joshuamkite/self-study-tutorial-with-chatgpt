@@ -45,6 +45,9 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [dictionaries\_and\_maps](#dictionaries_and_maps)
       - [recursion](#recursion)
       - [binary-numbers](#binary-numbers)
+      - [2D Arrays](#2d-arrays)
+    - [Hacker Rank Misc](#hacker-rank-misc)
+      - [lists](#lists)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -279,7 +282,6 @@ Output:
 
 Here, `S` is the start point, `E` is the end point, `#` represents walls, and spaces represent open paths. The output should show the shortest path from `S` to `E` using dots (`.`).
 
-
 ### [zodic-signs](./code-golf/zodic-signs)
 
 Given a MM-DD HH:MM date and time, output the corresponding Zodiac sign symbol according to the first table below. If the ascending sign is different from the Zodiac sign (sun sign), output it as well. Approximate the ascending sign using the sun sign and time according to the second table below.
@@ -378,6 +380,50 @@ Recursive Method for Calculating Factorial
 #### [binary-numbers](./hackerrank/30-days-of-code/binary-numbers)
 
 Given a base-10 integer, \( n \), convert it to binary (base-2). Then find and print the base-10 integer denoting the maximum number of consecutive 1's in \( n \)'s binary representation. When working with different bases, it is common to show the base as a subscript.
+
+#### [2D Arrays](./hackerrank/30-days-of-code/2d-arrays)
+
+Given a 2D Array, `A`:
+
+```
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+```
+
+We define an hourglass in `A` to be a subset of values with indices falling in this pattern in `A`'s graphical representation:
+
+```
+a b c
+  d
+e f g
+```
+
+There are 16 hourglasses in `A`, and an hourglass sum is the sum of an hourglass' values.
+
+**Task**
+
+Calculate the hourglass sum for every hourglass in `A`, then print the maximum hourglass sum.
+
+### Hacker Rank Misc
+
+#### [lists](./hackerrank/misc/lists)
+
+Consider a list (`list = []`). You can perform the following commands:
+
+1. `insert i e`: Insert integer `e` at position `i`.
+2. `print`: Print the list.
+3. `remove e`: Delete the first occurrence of integer `e`.
+4. `append e`: Insert integer `e` at the end of the list.
+5. `sort`: Sort the list.
+6. `pop`: Pop the last element from the list.
+7. `reverse`: Reverse the list.
+
+Initialize your list and read in the value of `n` followed by `n` lines of commands where each command will be of the types listed above. Iterate through each command in order and perform the corresponding operation on your list.
+
 ## Misc
 
 ### [custom_zip](./misc/custom_zip)
@@ -397,7 +443,6 @@ Define a function named list_xor. Your function should take three parameters: `n
 Your function must return whether n is exclusively in `list1` or `list2`.
 
 In other words, if `n` is in both lists or in none of the lists, return `False`. If `n` is in only one of the lists, return `True`.
-
 
 ### [Counting syllables](./misc/counting-syllables)
 
