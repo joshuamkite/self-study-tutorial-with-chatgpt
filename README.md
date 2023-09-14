@@ -46,8 +46,10 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [recursion](#recursion)
       - [binary-numbers](#binary-numbers)
       - [2D Arrays](#2d-arrays)
+      - [Inheritance](#inheritance)
     - [Hacker Rank Misc](#hacker-rank-misc)
       - [lists](#lists)
+      - [list-comprehensions](#list-comprehensions)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -408,6 +410,22 @@ There are 16 hourglasses in `A`, and an hourglass sum is the sum of an hourglass
 
 Calculate the hourglass sum for every hourglass in `A`, then print the maximum hourglass sum.
 
+#### [Inheritance](./hackerrank/30-days-of-code/Inheritance)
+
+You are given two classes, **Person** and **Student**, where **Person** is the base class and **Student** is the derived class. Completed code for **Person** and a declaration for **Student** are provided for you in the editor.
+
+Observe that **Student** inherits all the properties of **Person**.
+
+Complete the **Student** class by writing the following:
+
+- A **Student** class constructor, which has 4 parameters:
+  1. A string, *firstName*
+  2. A string, *lastName*
+  3. An integer, *idNumber*
+  4. An integer array (or vector) of test scores, *scores*
+
+- A char `calculate()` method that calculates a **Student** object's average and returns the grade character representative of their calculated average.
+  
 ### Hacker Rank Misc
 
 #### [lists](./hackerrank/misc/lists)
@@ -423,6 +441,10 @@ Consider a list (`list = []`). You can perform the following commands:
 7. `reverse`: Reverse the list.
 
 Initialize your list and read in the value of `n` followed by `n` lines of commands where each command will be of the types listed above. Iterate through each command in order and perform the corresponding operation on your list.
+
+#### [list-comprehensions](./hackerrank/misc/list-comprehensions)
+
+You are given three integers `x`, `y`, and `z` representing the dimensions of a cuboid along with an integer `n`. You need to print a list of all possible coordinates given by `(i, j, k)` on a 3D grid where the sum of `i + j + k` is not equal to `n`. Here, `0 <= i <= x`, `0 <= j <= y`, and `0 <= k <= z`. Please use list comprehensions rather than multiple loops, as a learning exercise.
 
 ## Misc
 
