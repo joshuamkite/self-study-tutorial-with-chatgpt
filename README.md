@@ -47,6 +47,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [binary-numbers](#binary-numbers)
       - [2D Arrays](#2d-arrays)
       - [Inheritance](#inheritance)
+      - [Abstract Classes](#abstract-classes)
     - [Hacker Rank Misc](#hacker-rank-misc)
       - [lists](#lists)
       - [list-comprehensions](#list-comprehensions)
@@ -425,7 +426,21 @@ Complete the **Student** class by writing the following:
   4. An integer array (or vector) of test scores, *scores*
 
 - A char `calculate()` method that calculates a **Student** object's average and returns the grade character representative of their calculated average.
+
+#### [Abstract Classes](./hackerrank/30-days-of-code/Inheritance/abstract-classes)
+
+Given a `Book` class and a `Solution` class, write a `MyBook` class that does the following:
+
+- Inherits from `Book`
+- Has a parameterized constructor taking these 3 parameters:
+  1. string (title)
+  2. string (author)
+  3. int (price)
   
+- Implements the `Book` class' abstract `display()` method so it prints these 3 lines:
+  1. `Title:`, a space, and then the current instance's title.
+  2. `Author:`, a space, and then the current instance's author.
+  3. `Price:`, a space, and then the current instance's price.
 ### Hacker Rank Misc
 
 #### [lists](./hackerrank/misc/lists)
