@@ -51,6 +51,8 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [Hacker Rank Misc](#hacker-rank-misc)
       - [lists](#lists)
       - [list-comprehensions](#list-comprehensions)
+      - [find-second-maximum-number-in-a-list](#find-second-maximum-number-in-a-list)
+      - [Nested Lists](#nested-lists)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -460,6 +462,17 @@ Initialize your list and read in the value of `n` followed by `n` lines of comma
 #### [list-comprehensions](./hackerrank/misc/list-comprehensions)
 
 You are given three integers `x`, `y`, and `z` representing the dimensions of a cuboid along with an integer `n`. You need to print a list of all possible coordinates given by `(i, j, k)` on a 3D grid where the sum of `i + j + k` is not equal to `n`. Here, `0 <= i <= x`, `0 <= j <= y`, and `0 <= k <= z`. Please use list comprehensions rather than multiple loops, as a learning exercise.
+
+#### [find-second-maximum-number-in-a-list](./hackerrank/misc/find-second-maximum-number-in-a-list)
+
+Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given `n` scores. Store them in a list and find the score of the runner-up.
+
+
+#### [Nested Lists](./hackerrank/misc/nested-lists)
+
+Given the names and grades for each student in a class of students, store them in a nested list and print the name(s) of any student(s) having the second lowest grade.
+
+**Note:** If there are multiple students with the second lowest grade, order their names alphabetically and print each name on a new line.
 
 ## Misc
 
