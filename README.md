@@ -59,6 +59,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [list\_xor](#list_xor)
     - [Counting syllables](#counting-syllables)
     - [counting-parameters](#counting-parameters)
+    - [finding-the-percentage](#finding-the-percentage)
  
  
  ## advent-of-code-2022
@@ -541,3 +542,7 @@ For example, the call `count("ho-tel"` should return `2`.
 Define a function param_count that takes a variable number of parameters. The function should return the number of arguments it was called with.
 
 For example, param_count() should return 0, while param_count(2, 3, 4) should return 3.
+
+### [finding-the-percentage](./hackerrank/misc/finding-the-percentage)
+
+The provided code stub will read in a dictionary containing key/value pairs of `name:[marks]` for a list of students. Print the average of the marks array for the student name provided, showing 2 places after the decimal.
