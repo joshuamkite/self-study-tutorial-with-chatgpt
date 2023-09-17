@@ -48,7 +48,9 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [2D Arrays](#2d-arrays)
       - [Inheritance](#inheritance)
       - [Abstract Classes](#abstract-classes)
+      - [scope](#scope)
       - [linked-list](#linked-list)
+      - [hackerrank/30-days-of-code/exceptions-string-to-integer](#hackerrank30-days-of-codeexceptions-string-to-integer)
     - [Hacker Rank Misc](#hacker-rank-misc)
       - [lists](#lists)
       - [list-comprehensions](#list-comprehensions)
@@ -431,7 +433,7 @@ Complete the **Student** class by writing the following:
 
 - A char `calculate()` method that calculates a **Student** object's average and returns the grade character representative of their calculated average.
 
-#### [Abstract Classes](./hackerrank/30-days-of-code/Inheritance/abstract-classes)
+#### [Abstract Classes](./hackerrank/30-days-of-code/absrtract-classes)
 
 Given a `Book` class and a `Solution` class, write a `MyBook` class that does the following:
 
@@ -446,7 +448,7 @@ Given a `Book` class and a `Solution` class, write a `MyBook` class that does th
   2. `Author:`, a space, and then the current instance's author.
   3. `Price:`, a space, and then the current instance's price.
 
-[scope](./hackerrank/30-days-of-code/scope)
+#### [scope](./hackerrank/30-days-of-code/scope)
 
 The absolute difference between two integers, \(a\) and \(b\), is written as \(|a - b|\). The maximum absolute difference between two integers in a set of positive integers, \(elements\), is the largest absolute difference between any two integers in \(elements\).
 
@@ -469,6 +471,11 @@ A Node insert function is also declared in your editor. It has two parameters: a
 
 Complete the insert function in your editor so that it creates a new Node (pass constructor argument) and inserts it at the tail of the linked list referenced by the as the Node parameter. Once the new node is added, return the reference to the node.
 
+#### [hackerrank/30-days-of-code/exceptions-string-to-integer](./hackerrank/30-days-of-code/exceptions-string-to-integer)
+
+Read a string, `S`, and print its integer value; if `S` cannot be converted to an integer, print `Bad String`.
+
+**Note:** You must use the String-to-Integer and exception handling constructs built into your submission language. If you attempt to use loops/conditional statements, you will get a 0 score.
 ### Hacker Rank Misc
 
 #### [lists](./hackerrank/misc/lists)
