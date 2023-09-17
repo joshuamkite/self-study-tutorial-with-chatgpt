@@ -50,7 +50,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [Abstract Classes](#abstract-classes)
       - [scope](#scope)
       - [linked-list](#linked-list)
-      - [hackerrank/30-days-of-code/exceptions-string-to-integer](#hackerrank30-days-of-codeexceptions-string-to-integer)
+      - [exceptions-string-to-integer](#exceptions-string-to-integer)
     - [Hacker Rank Misc](#hacker-rank-misc)
       - [lists](#lists)
       - [list-comprehensions](#list-comprehensions)
@@ -471,7 +471,7 @@ A Node insert function is also declared in your editor. It has two parameters: a
 
 Complete the insert function in your editor so that it creates a new Node (pass constructor argument) and inserts it at the tail of the linked list referenced by the as the Node parameter. Once the new node is added, return the reference to the node.
 
-#### [hackerrank/30-days-of-code/exceptions-string-to-integer](./hackerrank/30-days-of-code/exceptions-string-to-integer)
+#### [exceptions-string-to-integer](./hackerrank/30-days-of-code/exceptions-string-to-integer)
 
 Read a string, `S`, and print its integer value; if `S` cannot be converted to an integer, print `Bad String`.
 
