@@ -48,6 +48,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [2D Arrays](#2d-arrays)
       - [Inheritance](#inheritance)
       - [Abstract Classes](#abstract-classes)
+      - [linked-list](#linked-list)
     - [Hacker Rank Misc](#hacker-rank-misc)
       - [lists](#lists)
       - [list-comprehensions](#list-comprehensions)
@@ -443,6 +444,30 @@ Given a `Book` class and a `Solution` class, write a `MyBook` class that does th
   1. `Title:`, a space, and then the current instance's title.
   2. `Author:`, a space, and then the current instance's author.
   3. `Price:`, a space, and then the current instance's price.
+
+[scope](./hackerrank/30-days-of-code/scope)
+
+The absolute difference between two integers, \(a\) and \(b\), is written as \(|a - b|\). The maximum absolute difference between two integers in a set of positive integers, \(elements\), is the largest absolute difference between any two integers in \(elements\).
+
+The `Difference` class is started for you in the editor. It has a private integer array (`elements`) for storing non-negative integers, and a public integer (`maximumDifference`) for storing the maximum absolute difference.
+
+**Task**
+
+Complete the `Difference` class by writing the following:
+
+- A class constructor that takes an array of integers as a parameter and saves it to the `elements` instance variable.
+- A `computeDifference` method that finds the maximum absolute difference between any two numbers in `elements` and stores it in the `maximumDifference` instance variable.
+
+#### [linked-list](./hackerrank/30-days-of-code/linked-list)
+
+A Node class is provided for you in the editor. A Node object has an integer data field, and a Node instance pointer, pointing to another node (i.e.: the next node in the list).
+
+A Node insert function is also declared in your editor. It has two parameters: a pointer, pointing to the first node of a linked list, and an integer, that must be added to the end of the list as a new Node object.
+
+**Task**
+
+Complete the insert function in your editor so that it creates a new Node (pass constructor argument) and inserts it at the tail of the linked list referenced by the as the Node parameter. Once the new node is added, return the reference to the node.
+
 ### Hacker Rank Misc
 
 #### [lists](./hackerrank/misc/lists)
