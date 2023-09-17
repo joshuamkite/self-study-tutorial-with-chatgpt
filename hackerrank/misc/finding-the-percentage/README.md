@@ -53,4 +53,8 @@ Harsh
 
 ## input from ChatGPT
 
-None
+None.
+
+## Notes
+
+I did initially look for and try to use a Python `mean` function but it was easier to do it myself. I found the printf formatter on stack overflow.
