@@ -62,6 +62,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [Counting syllables](#counting-syllables)
     - [counting-parameters](#counting-parameters)
     - [finding-the-percentage](#finding-the-percentage)
+    - [swap-case](#swap-case)
  
  
  ## advent-of-code-2022
@@ -553,3 +554,27 @@ For example, param_count() should return 0, while param_count(2, 3, 4) should re
 ### [finding-the-percentage](./hackerrank/misc/finding-the-percentage)
 
 The provided code stub will read in a dictionary containing key/value pairs of `name:[marks]` for a list of students. Print the average of the marks array for the student name provided, showing 2 places after the decimal.
+
+### [swap-case](./hackerrank/misc/swap-case)
+
+You are given a string and your task is to swap cases. In other words, convert all lowercase letters to uppercase letters and vice versa.
+
+**For Example:**
+```
+Www.HackerRank.com → wWW.hACKERrANK.COM
+Pythonist 2 → pYTHONIST 2  
+```
+
+**Function Description**
+
+Complete the `swap_case` function in the editor below.
+
+`swap_case` has the following parameters:
+- string s: the string to modify
+
+**Returns**
+- string: the modified string
+
+**Input Format**
+
+A single line containing a string.
