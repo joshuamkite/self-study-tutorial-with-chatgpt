@@ -56,6 +56,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [list-comprehensions](#list-comprehensions)
       - [find-second-maximum-number-in-a-list](#find-second-maximum-number-in-a-list)
       - [Nested Lists](#nested-lists)
+      - [\[more-exceptions(./hackerrank/30-days-of-code/more-exceptions)\]](#more-exceptionshackerrank30-days-of-codemore-exceptions)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -511,6 +512,10 @@ Given the names and grades for each student in a class of students, store them i
 [Tuples](./hackerrank/misc/tuples)
 
 Given an integer, `n`, and `n` space-separated integers as input, create a tuple, `t`, of those `n` integers. Then compute and print the result of `hash(t)`.
+
+#### [more-exceptions(./hackerrank/30-days-of-code/more-exceptions)]
+
+Write a Calculator class with a single method: `int power(int,int)`. The power method takes two integers, `n` and `p`, as parameters and returns the integer result of `n^p`. If either `n` or `p` is negative, then the method must throw an exception with the message: "n and p should be non-negative".
 
 ## Misc
 
