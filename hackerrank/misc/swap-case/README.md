@@ -37,3 +37,5 @@ hACKERrANK.COM PRESENTS "pYTHONIST 2".
 ```
 
 ## No Input from ChatGPT
+
+`main-improved.py` is a slight refactoring after the discovery via [hackerrank/misc/string-validators](./hackerrank/misc/string-validators)that the evaluations I was writing myself are available as python native functions.
