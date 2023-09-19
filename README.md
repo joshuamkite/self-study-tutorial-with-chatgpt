@@ -57,6 +57,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [find-second-maximum-number-in-a-list](#find-second-maximum-number-in-a-list)
       - [Nested Lists](#nested-lists)
       - [\[more-exceptions(./hackerrank/30-days-of-code/more-exceptions)\]](#more-exceptionshackerrank30-days-of-codemore-exceptions)
+      - [string-validators](#string-validators)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -516,6 +517,11 @@ Given an integer, `n`, and `n` space-separated integers as input, create a tuple
 #### [more-exceptions(./hackerrank/30-days-of-code/more-exceptions)]
 
 Write a Calculator class with a single method: `int power(int,int)`. The power method takes two integers, `n` and `p`, as parameters and returns the integer result of `n^p`. If either `n` or `p` is negative, then the method must throw an exception with the message: "n and p should be non-negative".
+
+#### [string-validators](./hackerrank/misc/string-validators)
+
+You are given a string `S`.  
+Your task is to find out if the string `S` contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters.
 
 ## Misc
 
