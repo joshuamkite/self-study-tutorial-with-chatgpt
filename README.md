@@ -51,6 +51,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [scope](#scope)
       - [linked-list](#linked-list)
       - [exceptions-string-to-integer](#exceptions-string-to-integer)
+      - [queues-and-stacks](#queues-and-stacks)
     - [Hacker Rank Misc](#hacker-rank-misc)
       - [lists](#lists)
       - [list-comprehensions](#list-comprehensions)
@@ -479,6 +480,12 @@ Complete the insert function in your editor so that it creates a new Node (pass 
 Read a string, `S`, and print its integer value; if `S` cannot be converted to an integer, print `Bad String`.
 
 **Note:** You must use the String-to-Integer and exception handling constructs built into your submission language. If you attempt to use loops/conditional statements, you will get a 0 score.
+
+####  [queues-and-stacks](./hackerrank/30-days-of-code/queues-and-stacks)
+
+Welcome to Day 18! Today we're learning about Stacks and Queues. Check out the Tutorial tab for learning materials and an instructional video!
+
+A palindrome is a word, phrase, number, or other sequence of characters which reads the same backwards and forwards. Can you determine if a given string, `s`, is a palindrome?
 ### Hacker Rank Misc
 
 #### [lists](./hackerrank/misc/lists)
