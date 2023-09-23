@@ -59,6 +59,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [Nested Lists](#nested-lists)
       - [more-exceptions](#more-exceptions)
       - [string-validators](#string-validators)
+      - [interfaces](#interfaces)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -530,6 +531,12 @@ Write a Calculator class with a single method: `int power(int,int)`. The power m
 
 You are given a string `S`.  
 Your task is to find out if the string `S` contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters.
+
+#### [interfaces](./hackerrank/30-days-of-code/interfaces)
+
+The `AdvancedArithmetic` interface and the method declaration for the abstract `divisorSum(n)` method are provided for you in the editor below.
+
+Complete the implementation of `Calculator` class, which implements the `AdvancedArithmetic` interface. The implementation for the `divisorSum(n)` method must return the sum of all divisors of `n`.
 
 ## Misc
 
