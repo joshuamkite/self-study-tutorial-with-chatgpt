@@ -53,6 +53,6 @@ There are 4 nodes in this path that are connected by 3 edges, meaning our BST's 
 This was in 3 stages:
 
 1. Explain the properties and terminology of a binary tree since I was not very familiar with it.
-2. Explain where I had gone wrong in lifting [code found online](https://www.pythonforbeginners.com/data-structures/find-the-height-of-a-binary-tree). Whlst I had renamed the method calls correctly I had neglected the `self.` prefix for recursive function calls
-3. Correct the code sample from above:
+2. Explain where I had gone wrong in lifting [code found online](https://www.pythonforbeginners.com/data-structures/find-the-height-of-a-binary-tree). Whilst I had renamed the method calls correctly I had neglected the `self.` prefix for recursive function calls
+3. Correct the code sample from above (previously returned `0` if `none`):
    > Note that I also made a small adjustment to return -1 when root is None. This is because the height of an empty tree is conventionally considered as -1, and the height of a tree with one node (the root) is 0. This way, the height of the tree is calculated correctly as the number of edges on the longest path from the root to a leaf.
