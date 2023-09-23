@@ -52,6 +52,8 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [linked-list](#linked-list)
       - [exceptions-string-to-integer](#exceptions-string-to-integer)
       - [queues-and-stacks](#queues-and-stacks)
+      - [interfaces](#interfaces)
+      - [binary-search-trees](#binary-search-trees)
     - [Hacker Rank Misc](#hacker-rank-misc)
       - [lists](#lists)
       - [list-comprehensions](#list-comprehensions)
@@ -59,7 +61,6 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [Nested Lists](#nested-lists)
       - [more-exceptions](#more-exceptions)
       - [string-validators](#string-validators)
-      - [interfaces](#interfaces)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -488,6 +489,17 @@ Read a string, `S`, and print its integer value; if `S` cannot be converted to a
 Welcome to Day 18! Today we're learning about Stacks and Queues. Check out the Tutorial tab for learning materials and an instructional video!
 
 A palindrome is a word, phrase, number, or other sequence of characters which reads the same backwards and forwards. Can you determine if a given string, `s`, is a palindrome?
+
+#### [interfaces](./hackerrank/30-days-of-code/interfaces)
+
+The `AdvancedArithmetic` interface and the method declaration for the abstract `divisorSum(n)` method are provided for you in the editor below.
+
+Complete the implementation of `Calculator` class, which implements the `AdvancedArithmetic` interface. The implementation for the `divisorSum(n)` method must return the sum of all divisors of `n`.
+
+#### [binary-search-trees](./hackerrank/30-days-of-code/binary-search-trees)
+
+The height of a binary search tree is the number of edges between the tree's root and its furthest leaf. You are given a pointer, pointing to the root of a binary search tree. Complete the `getHeight` function provided in your editor so that it returns the height of the binary search tree.
+
 ### Hacker Rank Misc
 
 #### [lists](./hackerrank/misc/lists)
@@ -531,12 +543,6 @@ Write a Calculator class with a single method: `int power(int,int)`. The power m
 
 You are given a string `S`.  
 Your task is to find out if the string `S` contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters.
-
-#### [interfaces](./hackerrank/30-days-of-code/interfaces)
-
-The `AdvancedArithmetic` interface and the method declaration for the abstract `divisorSum(n)` method are provided for you in the editor below.
-
-Complete the implementation of `Calculator` class, which implements the `AdvancedArithmetic` interface. The implementation for the `divisorSum(n)` method must return the sum of all divisors of `n`.
 
 ## Misc
 
