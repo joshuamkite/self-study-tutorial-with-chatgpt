@@ -66,6 +66,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [counting-parameters](#counting-parameters)
     - [finding-the-percentage](#finding-the-percentage)
     - [swap-case](#swap-case)
+    - [designer-door-mat](#designer-door-mat)
  
  
  ## advent-of-code-2022
@@ -596,3 +597,11 @@ Complete the `swap_case` function in the editor below.
 **Input Format**
 
 A single line containing a string.
+
+### [designer-door-mat](./hackerrank/misc/designer-door-mat)
+
+Mr. Vincent works in a door mat manufacturing company. One day, he designed a new door mat with the following specifications:
+
+- Mat size must be \(N \times M\). (\(N\) is an odd natural number, and \(M\) is \(3\) times \(N\).)
+- The design should have 'WELCOME' written in the center.
+- The design pattern should only use `|`, `.` and `-` characters.
