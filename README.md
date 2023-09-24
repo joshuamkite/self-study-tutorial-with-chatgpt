@@ -61,6 +61,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [Nested Lists](#nested-lists)
       - [more-exceptions](#more-exceptions)
       - [string-validators](#string-validators)
+    - [bubble-sort](#bubble-sort)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -545,6 +546,16 @@ Write a Calculator class with a single method: `int power(int,int)`. The power m
 
 You are given a string `S`.  
 Your task is to find out if the string `S` contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters.
+
+### [bubble-sort](./hackerrank/30-days-of-code/bubble-sort)
+
+Given an array, `a`, of size distinct elements, sort the array in ascending order using the Bubble Sort algorithm above. Once sorted, print the following lines:
+1. `Array is sorted in numSwaps swaps.`
+   where `numSwaps` is the number of swaps that took place.
+2. `First Element: firstElement`
+   where `firstElement` is the first element in the sorted array.
+3. `Last Element: lastElement`
+   where `lastElement` is the last element in the sorted array.
 
 ## Misc
 
