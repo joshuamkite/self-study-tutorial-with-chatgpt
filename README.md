@@ -70,6 +70,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [swap-case](#swap-case)
     - [designer-door-mat](#designer-door-mat)
     - [string-formatting](#string-formatting)
+    - [alphabet-rangoli](#alphabet-rangoli)
  
  
  ## advent-of-code-2022
@@ -628,3 +629,7 @@ Given an integer, `n`, print the following values for each integer from `1` to `
 2. Octal
 3. Hexadecimal (capitalized)
 4. Binary
+
+### [alphabet-rangoli](./hackerrank/misc/alphabet-rangoli)
+
+You are given an integer, `n`. Your task is to print an alphabet rangoli of size `n`. (Rangoli is a form of Indian folk art based on creation of patterns.)
