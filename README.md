@@ -69,6 +69,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [finding-the-percentage](#finding-the-percentage)
     - [swap-case](#swap-case)
     - [designer-door-mat](#designer-door-mat)
+    - [string-formatting](#string-formatting)
  
  
  ## advent-of-code-2022
@@ -618,3 +619,12 @@ Mr. Vincent works in a door mat manufacturing company. One day, he designed a ne
 - Mat size must be \(N \times M\). (\(N\) is an odd natural number, and \(M\) is \(3\) times \(N\).)
 - The design should have 'WELCOME' written in the center.
 - The design pattern should only use `|`, `.` and `-` characters.
+
+### [string-formatting](./hackerrank/misc/string-formatting)
+
+Given an integer, `n`, print the following values for each integer from `1` to `n`:
+
+1. Decimal
+2. Octal
+3. Hexadecimal (capitalized)
+4. Binary
