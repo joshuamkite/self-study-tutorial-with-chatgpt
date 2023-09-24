@@ -72,6 +72,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
     - [designer-door-mat](#designer-door-mat)
     - [string-formatting](#string-formatting)
     - [alphabet-rangoli](#alphabet-rangoli)
+    - [Capitalize!](#capitalize)
  
  
  ## advent-of-code-2022
@@ -644,3 +645,9 @@ Given an integer, `n`, print the following values for each integer from `1` to `
 ### [alphabet-rangoli](./hackerrank/misc/alphabet-rangoli)
 
 You are given an integer, `n`. Your task is to print an alphabet rangoli of size `n`. (Rangoli is a form of Indian folk art based on creation of patterns.)
+
+### [Capitalize!](./hackerrank/misc/capitalize)
+
+You are asked to ensure that the first and last names of people begin with a capital letter in their passports. For example, `alison heck` should be capitalized correctly as `Alison Heck`.
+
+Given a full name, your task is to capitalize the name appropriately.
