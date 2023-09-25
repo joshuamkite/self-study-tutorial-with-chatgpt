@@ -50,4 +50,19 @@ Stuart 12
 
 ## Input of ChatGPT
 
-Here, pretty much all of it! As can be seen from `main-broken.py` I had distractedly made a number of errors and further misunderstood the original task
+Here, pretty much all of it! As can be seen from `main-broken.py` I had distractedly made a number of errors and further misunderstood the original task. `main-chatgpt.py` is clearly better.
+
+On reflection, the passing code does not really calculate substrings, rather it tallies vowels and consonants and their relative positions. I became interested in the statistical odds, which seemed to me greatly in favour of Stuart winning. On interrogating ChatGPT, it seemed there wasn't an 'obvious' or established and ready answer, rather this would need to be my own statistical analysis. I asked ChatGPT to extend the code to perform this analysis using the Python `english_words` package, and specifically the `web2` set of words:
+
+> The 'web2' word list is one of the word lists that originated from the Unix operating system. It is a large list of English words that is often used in various software applications, including spell checkers and word games. The 'web2' list is derived from the "Webster's Second International" dictionary and contains a comprehensive collection of English words, including both common and uncommon words.
+
+Running this code `main-statistical.py` on my Mac was surprisingly quick and the results are unambiguous:
+
+Total Games: 234450
+Stuart Wins: 206739 (88.18%)
+Kevin Wins: 21991 (9.38%)
+Draws: 5720 (2.44%)
+
+Essentially Stuart wins 9 times out of 10 and Kevin only 1 time in 11
+
+
