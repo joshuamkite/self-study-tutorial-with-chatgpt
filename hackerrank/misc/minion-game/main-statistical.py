@@ -34,7 +34,7 @@ draws = 0
 
 # Iterate through the list of words and simulate the game
 for word in english_words_set:
-    winner = minion_game(word.upper())
+    winner = minion_game(word)
     if winner == "Stuart":
         stuart_wins += 1
     elif winner == "Kevin":
