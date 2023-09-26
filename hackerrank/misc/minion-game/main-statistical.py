@@ -8,7 +8,7 @@ english_words_set = get_english_words_set(['web2'], lower=True)
 
 
 def minion_game(word):
-    vowels = "AEIOU"
+    vowels = "aeiou"
     stuart_score = 0
     kevin_score = 0
 
