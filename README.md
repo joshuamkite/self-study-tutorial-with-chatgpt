@@ -51,28 +51,31 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [scope](#scope)
       - [linked-list](#linked-list)
       - [exceptions-string-to-integer](#exceptions-string-to-integer)
+      - [more-exceptions](#more-exceptions)
       - [queues-and-stacks](#queues-and-stacks)
       - [interfaces](#interfaces)
+      - [bubble-sort](#bubble-sort)
       - [binary-search-trees](#binary-search-trees)
     - [Hacker Rank Misc](#hacker-rank-misc)
       - [lists](#lists)
       - [list-comprehensions](#list-comprehensions)
       - [find-second-maximum-number-in-a-list](#find-second-maximum-number-in-a-list)
       - [Nested Lists](#nested-lists)
-      - [more-exceptions](#more-exceptions)
       - [string-validators](#string-validators)
-    - [bubble-sort](#bubble-sort)
+      - [finding-the-percentage](#finding-the-percentage)
+      - [swap-case](#swap-case)
+      - [designer-door-mat](#designer-door-mat)
+      - [string-formatting](#string-formatting)
+      - [alphabet-rangoli](#alphabet-rangoli)
+      - [Capitalize!](#capitalize)
+      - [merge-the-tools](#merge-the-tools)
+      - [no\_idea](#no_idea)
+      - [compress-the-string](#compress-the-string)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
     - [Counting syllables](#counting-syllables)
     - [counting-parameters](#counting-parameters)
-    - [finding-the-percentage](#finding-the-percentage)
-    - [swap-case](#swap-case)
-    - [designer-door-mat](#designer-door-mat)
-    - [string-formatting](#string-formatting)
-    - [alphabet-rangoli](#alphabet-rangoli)
-    - [Capitalize!](#capitalize)
  
  
  ## advent-of-code-2022
@@ -488,6 +491,10 @@ Read a string, `S`, and print its integer value; if `S` cannot be converted to a
 
 **Note:** You must use the String-to-Integer and exception handling constructs built into your submission language. If you attempt to use loops/conditional statements, you will get a 0 score.
 
+#### [more-exceptions](./hackerrank/30-days-of-code/more-exceptions)
+
+Write a Calculator class with a single method: `int power(int,int)`. The power method takes two integers, `n` and `p`, as parameters and returns the integer result of `n^p`. If either `n` or `p` is negative, then the method must throw an exception with the message: "n and p should be non-negative".
+
 ####  [queues-and-stacks](./hackerrank/30-days-of-code/queues-and-stacks)
 
 Welcome to Day 18! Today we're learning about Stacks and Queues. Check out the Tutorial tab for learning materials and an instructional video!
@@ -499,6 +506,16 @@ A palindrome is a word, phrase, number, or other sequence of characters which re
 The `AdvancedArithmetic` interface and the method declaration for the abstract `divisorSum(n)` method are provided for you in the editor below.
 
 Complete the implementation of `Calculator` class, which implements the `AdvancedArithmetic` interface. The implementation for the `divisorSum(n)` method must return the sum of all divisors of `n`.
+
+#### [bubble-sort](./hackerrank/30-days-of-code/bubble-sort)
+
+Given an array, `a`, of size distinct elements, sort the array in ascending order using the Bubble Sort algorithm above. Once sorted, print the following lines:
+1. `Array is sorted in numSwaps swaps.`
+   where `numSwaps` is the number of swaps that took place.
+2. `First Element: firstElement`
+   where `firstElement` is the first element in the sorted array.
+3. `Last Element: lastElement`
+   where `lastElement` is the last element in the sorted array.
 
 #### [binary-search-trees](./hackerrank/30-days-of-code/binary-search-trees)
 
@@ -539,24 +556,91 @@ Given the names and grades for each student in a class of students, store them i
 
 Given an integer, `n`, and `n` space-separated integers as input, create a tuple, `t`, of those `n` integers. Then compute and print the result of `hash(t)`.
 
-#### [more-exceptions](./hackerrank/30-days-of-code/more-exceptions)
 
-Write a Calculator class with a single method: `int power(int,int)`. The power method takes two integers, `n` and `p`, as parameters and returns the integer result of `n^p`. If either `n` or `p` is negative, then the method must throw an exception with the message: "n and p should be non-negative".
 
 #### [string-validators](./hackerrank/misc/string-validators)
 
 You are given a string `S`.  
 Your task is to find out if the string `S` contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters.
 
-### [bubble-sort](./hackerrank/30-days-of-code/bubble-sort)
 
-Given an array, `a`, of size distinct elements, sort the array in ascending order using the Bubble Sort algorithm above. Once sorted, print the following lines:
-1. `Array is sorted in numSwaps swaps.`
-   where `numSwaps` is the number of swaps that took place.
-2. `First Element: firstElement`
-   where `firstElement` is the first element in the sorted array.
-3. `Last Element: lastElement`
-   where `lastElement` is the last element in the sorted array.
+
+#### [finding-the-percentage](./hackerrank/misc/finding-the-percentage)
+
+The provided code stub will read in a dictionary containing key/value pairs of `name:[marks]` for a list of students. Print the average of the marks array for the student name provided, showing 2 places after the decimal.
+
+#### [swap-case](./hackerrank/misc/swap-case)
+
+You are given a string and your task is to swap cases. In other words, convert all lowercase letters to uppercase letters and vice versa.
+
+**For Example:**
+```
+Www.HackerRank.com → wWW.hACKERrANK.COM
+Pythonist 2 → pYTHONIST 2  
+```
+
+**Function Description**
+
+Complete the `swap_case` function in the editor below.
+
+`swap_case` has the following parameters:
+- string s: the string to modify
+
+**Returns**
+- string: the modified string
+
+**Input Format**
+
+A single line containing a string.
+
+#### [designer-door-mat](./hackerrank/misc/designer-door-mat)
+
+Mr. Vincent works in a door mat manufacturing company. One day, he designed a new door mat with the following specifications:
+
+- Mat size must be \(N \times M\). (\(N\) is an odd natural number, and \(M\) is \(3\) times \(N\).)
+- The design should have 'WELCOME' written in the center.
+- The design pattern should only use `|`, `.` and `-` characters.
+
+#### [string-formatting](./hackerrank/misc/string-formatting)
+
+Given an integer, `n`, print the following values for each integer from `1` to `n`:
+
+1. Decimal
+2. Octal
+3. Hexadecimal (capitalized)
+4. Binary
+
+#### [alphabet-rangoli](./hackerrank/misc/alphabet-rangoli)
+
+You are given an integer, `n`. Your task is to print an alphabet rangoli of size `n`. (Rangoli is a form of Indian folk art based on creation of patterns.)
+
+#### [Capitalize!](./hackerrank/misc/capitalize)
+
+You are asked to ensure that the first and last names of people begin with a capital letter in their passports. For example, `alison heck` should be capitalized correctly as `Alison Heck`.
+
+Given a full name, your task is to capitalize the name appropriately.
+
+[minion-game](./hackerrank/misc/minion-game)
+
+Kevin and Stuart want to play the 'The Minion Game'.
+
+#### [merge-the-tools](./hackerrank/misc/merge-the-tools)
+
+split `s` into `n/k` substrings where each substring, `t_i`, consists of a contiguous block of characters in `s`. Then, use each `t_i` to create string `u_i`
+
+#### [no_idea](./hackerrank/misc/no_idea)
+
+There is an array of integers. There are also disjoint sets, \( A \) and \( B \), each containing integers. You like all the integers in set \( A \) and dislike all the integers in set \( B \). Your initial happiness is \( 0 \). For each integer in the array:
+
+- If the integer is in set \( A \), you add \( 1 \) to your happiness.
+- If the integer is in set \( B \), you subtract \( 1 \) from your happiness.
+- Otherwise, your happiness does not change.
+
+Output your final happiness at the end.
+
+#### [compress-the-string](./hackerrank/misc/compress-the-string)
+
+You are given a string `S`. Suppose a character `'c'` occurs consecutively `X` times in the string. Replace these consecutive occurrences of the character `'c'` with `(X, c)` in the string.
 
 ## Misc
 
@@ -596,62 +680,3 @@ For example, the call `count("ho-tel"` should return `2`.
 Define a function param_count that takes a variable number of parameters. The function should return the number of arguments it was called with.
 
 For example, param_count() should return 0, while param_count(2, 3, 4) should return 3.
-
-### [finding-the-percentage](./hackerrank/misc/finding-the-percentage)
-
-The provided code stub will read in a dictionary containing key/value pairs of `name:[marks]` for a list of students. Print the average of the marks array for the student name provided, showing 2 places after the decimal.
-
-### [swap-case](./hackerrank/misc/swap-case)
-
-You are given a string and your task is to swap cases. In other words, convert all lowercase letters to uppercase letters and vice versa.
-
-**For Example:**
-```
-Www.HackerRank.com → wWW.hACKERrANK.COM
-Pythonist 2 → pYTHONIST 2  
-```
-
-**Function Description**
-
-Complete the `swap_case` function in the editor below.
-
-`swap_case` has the following parameters:
-- string s: the string to modify
-
-**Returns**
-- string: the modified string
-
-**Input Format**
-
-A single line containing a string.
-
-### [designer-door-mat](./hackerrank/misc/designer-door-mat)
-
-Mr. Vincent works in a door mat manufacturing company. One day, he designed a new door mat with the following specifications:
-
-- Mat size must be \(N \times M\). (\(N\) is an odd natural number, and \(M\) is \(3\) times \(N\).)
-- The design should have 'WELCOME' written in the center.
-- The design pattern should only use `|`, `.` and `-` characters.
-
-### [string-formatting](./hackerrank/misc/string-formatting)
-
-Given an integer, `n`, print the following values for each integer from `1` to `n`:
-
-1. Decimal
-2. Octal
-3. Hexadecimal (capitalized)
-4. Binary
-
-### [alphabet-rangoli](./hackerrank/misc/alphabet-rangoli)
-
-You are given an integer, `n`. Your task is to print an alphabet rangoli of size `n`. (Rangoli is a form of Indian folk art based on creation of patterns.)
-
-### [Capitalize!](./hackerrank/misc/capitalize)
-
-You are asked to ensure that the first and last names of people begin with a capital letter in their passports. For example, `alison heck` should be capitalized correctly as `Alison Heck`.
-
-Given a full name, your task is to capitalize the name appropriately.
-
-[minion-game](./hackerrank/misc/minion-game)
-
-Kevin and Stuart want to play the 'The Minion Game'.
