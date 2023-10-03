@@ -71,6 +71,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [merge-the-tools](#merge-the-tools)
       - [no\_idea](#no_idea)
       - [compress-the-string](#compress-the-string)
+      - [most-commons](#most-commons)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -641,6 +642,14 @@ Output your final happiness at the end.
 #### [compress-the-string](./hackerrank/misc/compress-the-string)
 
 You are given a string `S`. Suppose a character `'c'` occurs consecutively `X` times in the string. Replace these consecutive occurrences of the character `'c'` with `(X, c)` in the string.
+
+#### [most-commons](./hackerrank/misc/most-commons)
+
+A newly opened multinational brand has decided to base their company logo on the three most common characters in the company name. They are now trying out various combinations of company names and logos based on this condition. 
+
+Given a string , which is the company name in lowercase letters, your task is to find the top three most common characters in the string. 
+
+Print the three most common characters along with their occurrence count. Sort in descending order of occurrence count. If the occurrence count is the same, sort the characters in alphabetical order. 
 
 ## Misc
 
