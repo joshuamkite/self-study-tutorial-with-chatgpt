@@ -70,6 +70,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [Capitalize!](#capitalize)
       - [merge-the-tools](#merge-the-tools)
       - [no\_idea](#no_idea)
+      - [Piling Up!](#piling-up)
       - [compress-the-string](#compress-the-string)
       - [most-commons](#most-commons)
   - [Misc](#misc)
@@ -638,6 +639,13 @@ There is an array of integers. There are also disjoint sets, \( A \) and \( B \)
 - Otherwise, your happiness does not change.
 
 Output your final happiness at the end.
+
+#### [Piling Up!](./hackerrank/misc/piling_up)
+
+There is a horizontal row of cubes. The length of each cube is given. You need to create a new vertical pile of cubes. The new pile should follow these directions: if cube `b` is on top of cube `a` then `sideLength(b) <= sideLength(a)`.
+
+When stacking the cubes, you can only pick up either the leftmost or the rightmost cube each time. Print `Yes` if it is possible to stack the cubes. Otherwise, print `No`.
+
 
 #### [compress-the-string](./hackerrank/misc/compress-the-string)
 
