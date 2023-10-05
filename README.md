@@ -73,7 +73,8 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [Piling Up!](#piling-up)
       - [compress-the-string](#compress-the-string)
       - [most-commons](#most-commons)
-    - [athlete-sort](#athlete-sort)
+      - [athlete-sort](#athlete-sort)
+      - [ginortS](#ginorts)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -660,9 +661,17 @@ Given a string , which is the company name in lowercase letters, your task is to
 
 Print the three most common characters along with their occurrence count. Sort in descending order of occurrence count. If the occurrence count is the same, sort the characters in alphabetical order. 
 
-### [athlete-sort](./hackerrank/misc/athlete-sort)
+#### [athlete-sort](./hackerrank/misc/athlete-sort)
 
 You are given a spreadsheet that contains a list of athletes and their details (such as age, height, weight and so on). You are required to sort the data based on the \(k^{th}\) attribute and print the final resulting table. Follow the example given below for better understanding.
+
+#### [ginortS](./hackerrank/misc/ginortS)
+
+You are given a string `S`. `S` contains alphanumeric characters only. Your task is to sort the string in the following manner:
+
+- All sorted lowercase letters are ahead of uppercase letters.
+- All sorted uppercase letters are ahead of digits.
+- All sorted odd digits are ahead of sorted even digits.
 
 ## Misc
 
