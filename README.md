@@ -673,6 +673,12 @@ You are given a string `S`. `S` contains alphanumeric characters only. Your task
 - All sorted uppercase letters are ahead of digits.
 - All sorted odd digits are ahead of sorted even digits.
 
+[itertools.permutations](./hackerrank/misc/itertools.permutations)
+
+You are given a string \( S \).
+
+Your task is to print all possible permutations of size \( k \) of the string in lexicographically sorted order.
+
 ## Misc
 
 ### [custom_zip](./misc/custom_zip)
