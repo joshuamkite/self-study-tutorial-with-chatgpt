@@ -75,6 +75,8 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [most-commons](#most-commons)
       - [athlete-sort](#athlete-sort)
       - [ginortS](#ginorts)
+      - [itertools.permutations](#itertoolspermutations)
+      - [validating-credit-card-numbers](#validating-credit-card-numbers)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -673,11 +675,24 @@ You are given a string `S`. `S` contains alphanumeric characters only. Your task
 - All sorted uppercase letters are ahead of digits.
 - All sorted odd digits are ahead of sorted even digits.
 
-[itertools.permutations](./hackerrank/misc/itertools.permutations)
+####  [itertools.permutations](./hackerrank/misc/itertools.permutations)
 
 You are given a string \( S \).
 
 Your task is to print all possible permutations of size \( k \) of the string in lexicographically sorted order.
+
+#### [validating-credit-card-numbers](./hackerrank/misc/validating-credit-card-numbers)
+
+You and Fredrick are good friends. Yesterday, Fredrick received credit cards from ABCD Bank. He wants to verify whether his credit card numbers are valid or not. You happen to be great at regex so he is asking for your help!
+
+A valid credit card from ABCD Bank has the following characteristics:
+
+- It must start with a `4`, `5`, or `6`.
+- It must contain exactly `16` digits.
+- It must only consist of digits (`0-9`).
+- It may have digits in groups of `4`, separated by one hyphen `-`.
+- It must **NOT** use any other separator like ' ', '_', etc.
+- It must **NOT** have `4` or more consecutive repeated digits.
 
 ## Misc
 
