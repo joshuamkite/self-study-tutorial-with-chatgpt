@@ -77,6 +77,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [ginortS](#ginorts)
       - [itertools.permutations](#itertoolspermutations)
       - [validating-credit-card-numbers](#validating-credit-card-numbers)
+      - [collections.namedtuple](#collectionsnamedtuple)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -693,6 +694,11 @@ A valid credit card from ABCD Bank has the following characteristics:
 - It may have digits in groups of `4`, separated by one hyphen `-`.
 - It must **NOT** use any other separator like ' ', '_', etc.
 - It must **NOT** have `4` or more consecutive repeated digits.
+
+
+#### [collections.namedtuple](./hackerrank/misc/collections.namedtuple)
+
+Dr. John Wesley has a spreadsheet containing a list of student's `ID`, `MARKS`, `CLASS`, and `NAME`. Your task is to help Dr. Wesley calculate the average marks of the students.
 
 ## Misc
 
