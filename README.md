@@ -78,6 +78,7 @@ Original code based on my own designs with assistance from ChatGPT as part of my
       - [itertools.permutations](#itertoolspermutations)
       - [validating-credit-card-numbers](#validating-credit-card-numbers)
       - [collections.namedtuple](#collectionsnamedtuple)
+    - [The Captain's Room](#the-captains-room)
   - [Misc](#misc)
     - [custom\_zip](#custom_zip)
     - [list\_xor](#list_xor)
@@ -699,6 +700,10 @@ A valid credit card from ABCD Bank has the following characteristics:
 #### [collections.namedtuple](./hackerrank/misc/collections.namedtuple)
 
 Dr. John Wesley has a spreadsheet containing a list of student's `ID`, `MARKS`, `CLASS`, and `NAME`. Your task is to help Dr. Wesley calculate the average marks of the students.
+
+### The Captain's Room
+
+Find the unique entry in a list
 
 ## Misc
 
